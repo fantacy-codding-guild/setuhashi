@@ -1,0 +1,6 @@
+# Apache (Hostinger) — legacy review-site addresses keep working: /en/page.html -> /en/page/ (query string is preserved)
+RewriteEngine On
+RewriteRule ^(en|ja)/index\.html$ /$1/ [R=301,L]
+RewriteRule ^(en|ja)/([a-z0-9-]+)\.html$ /$1/$2/ [R=301,L]
+RewriteRule ^index\.html$ / [R=301,L]
+ErrorDocument 404 /404.html

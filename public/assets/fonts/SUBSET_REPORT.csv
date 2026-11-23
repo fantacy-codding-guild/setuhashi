@@ -1,0 +1,12 @@
+file,codepoints_kept,bytes,requested_but_missing_in_source
+noto-serif-jp-500-latin.woff2,209,18632,0
+noto-serif-jp-500-ja.woff2,1038,203324,0
+noto-serif-jp-600-latin.woff2,209,18664,0
+noto-serif-jp-600-ja.woff2,1038,203576,0
+noto-sans-jp-400-latin.woff2,209,13204,0
+noto-sans-jp-400-ja.woff2,1038,150928,0
+noto-sans-jp-500-latin.woff2,209,13216,0
+noto-sans-jp-500-ja.woff2,1038,151856,0
+inter-400-latin.woff2,208,17240,1
+inter-500-latin.woff2,208,17628,1
+noto-sans-jp-500-ui.woff2,3,1592,0

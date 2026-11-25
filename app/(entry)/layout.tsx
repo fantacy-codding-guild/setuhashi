@@ -1,14 +1,18 @@
-import type { Metadata } from 'next'
-import '../styles/fonts.css'
-import '../styles/v4.css'
-import { ALLOW_INDEXING, SITE_URL } from '@/lib/site'
+import type { Metadata } from "next";
+import { getTranslations } from "next-intl/server";
+import { REVIEW, SITE_URL } from "@/lib/site";
+import "../fonts.css";
+import "../globals.css";
 
-export const metadata: Metadata = {
-  ...(SITE_URL ? { metadataBase: new URL(SITE_URL) } : {}),
-  title: { absolute: 'SetuHashi' },
-  description: 'SetuHashi — choose English or Japanese.',
-  robots: ALLOW_INDEXING ? undefined : { index: false, follow: false },
-  icons: { icon: '/assets/icons/favicon.ico' },
+export async function generateMetadata(): Promise<Metadata> {
+  const t = await getTranslations({ locale: "en", namespace: "entry" });
+  return {
+    metadataBase: new URL(SITE_URL),
+    title: t("metaTitle"),
+    description: t("metaDescription"),
+    robots: REVIEW ? { index: false, follow: false } : undefined,
+    icons: { icon: "/assets/icons/favicon.ico" },
+  };
 }
 
 export default function EntryLayout({ children }: { children: React.ReactNode }) {
@@ -16,5 +20,5 @@ export default function EntryLayout({ children }: { children: React.ReactNode })
     <html lang="en">
       <body className="b-en entry entry-45">{children}</body>
     </html>
-  )
+  );
 }

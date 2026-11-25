@@ -1,0 +1,770 @@
+[
+ {
+  "value": "",
+  "en": "No topic: general enquiry",
+  "ja": "テーマなし(一般的なお問い合わせ)",
+  "group": null
+ },
+ {
+  "value": "a-jp",
+  "en": "Japanese businesses",
+  "ja": "日本企業の方",
+  "group": "Who we serve"
+ },
+ {
+  "value": "a-in",
+  "en": "Indian businesses",
+  "ja": "インド企業の方",
+  "group": "Who we serve"
+ },
+ {
+  "value": "a-joint",
+  "en": "Building together for other markets",
+  "ja": "ほかの市場でともに築く",
+  "group": "Who we serve"
+ },
+ {
+  "value": "a-prov",
+  "en": "Providers and institutions",
+  "ja": "プロバイダー・機関の方",
+  "group": "Who we serve"
+ },
+ {
+  "value": "a-gov",
+  "en": "Government",
+  "ja": "行政機関の方",
+  "group": "Who we serve"
+ },
+ {
+  "value": "s-1-1",
+  "en": "Assess opportunities",
+  "ja": "機会を評価する",
+  "group": "Find the right opportunities"
+ },
+ {
+  "value": "o-1-1-1",
+  "en": "— Opportunity assessment",
+  "ja": "— 機会の評価",
+  "group": "Find the right opportunities"
+ },
+ {
+  "value": "o-1-1-2",
+  "en": "— Customer and counterpart screening",
+  "ja": "— 顧客・取引相手の調査",
+  "group": "Find the right opportunities"
+ },
+ {
+  "value": "o-1-1-3",
+  "en": "— Commercial qualification",
+  "ja": "— 商業性の検証",
+  "group": "Find the right opportunities"
+ },
+ {
+  "value": "o-1-1-4",
+  "en": "— Prioritized pursuit agenda",
+  "ja": "— 優先順位を付けた推進計画",
+  "group": "Find the right opportunities"
+ },
+ {
+  "value": "s-1-2",
+  "en": "Adapt your offer for the market",
+  "ja": "市場に合わせて提案を調整する",
+  "group": "Find the right opportunities"
+ },
+ {
+  "value": "o-1-2-1",
+  "en": "— Buyer-requirement assessment",
+  "ja": "— 買い手の要件の把握",
+  "group": "Find the right opportunities"
+ },
+ {
+  "value": "o-1-2-2",
+  "en": "— Offer adaptation and localization",
+  "ja": "— 提案の調整と現地化",
+  "group": "Find the right opportunities"
+ },
+ {
+  "value": "o-1-2-3",
+  "en": "— Commercial validation",
+  "ja": "— 商業面での検証",
+  "group": "Find the right opportunities"
+ },
+ {
+  "value": "o-1-2-4",
+  "en": "— Market-entry business case",
+  "ja": "— 市場参入のビジネスケース",
+  "group": "Find the right opportunities"
+ },
+ {
+  "value": "s-1-3",
+  "en": "Find and develop suitable partnerships",
+  "ja": "ふさわしいパートナーを見つけ、関係を育てる",
+  "group": "Find the right opportunities"
+ },
+ {
+  "value": "o-1-3-1",
+  "en": "— Partner search and qualification",
+  "ja": "— パートナーの探索と選定",
+  "group": "Find the right opportunities"
+ },
+ {
+  "value": "o-1-3-2",
+  "en": "— Partner fit and expectations",
+  "ja": "— 適合性と期待のすり合わせ",
+  "group": "Find the right opportunities"
+ },
+ {
+  "value": "o-1-3-3",
+  "en": "— Partnership development",
+  "ja": "— パートナーシップの構築",
+  "group": "Find the right opportunities"
+ },
+ {
+  "value": "s-2-1",
+  "en": "Reach customers in Japan",
+  "ja": "日本の顧客に届く",
+  "group": "Enter and grow in Japan or India"
+ },
+ {
+  "value": "o-2-1-1",
+  "en": "— Japan entry assessment",
+  "ja": "— 日本市場への参入評価",
+  "group": "Enter and grow in Japan or India"
+ },
+ {
+  "value": "o-2-1-2",
+  "en": "— Japan-ready offer",
+  "ja": "— 日本向けの提案づくり",
+  "group": "Enter and grow in Japan or India"
+ },
+ {
+  "value": "o-2-1-3",
+  "en": "— Channel and partner development",
+  "ja": "— 販売チャネルとパートナーの開拓",
+  "group": "Enter and grow in Japan or India"
+ },
+ {
+  "value": "o-2-1-4",
+  "en": "— First-customer development",
+  "ja": "— 最初の顧客の開拓",
+  "group": "Enter and grow in Japan or India"
+ },
+ {
+  "value": "s-2-2",
+  "en": "Reach customers in India",
+  "ja": "インドの顧客に届く",
+  "group": "Enter and grow in Japan or India"
+ },
+ {
+  "value": "o-2-2-1",
+  "en": "— India entry-option assessment",
+  "ja": "— インド参入の選択肢の評価",
+  "group": "Enter and grow in Japan or India"
+ },
+ {
+  "value": "o-2-2-2",
+  "en": "— Offer adaptation for Indian buyers",
+  "ja": "— インドの買い手向けの提案の調整",
+  "group": "Enter and grow in Japan or India"
+ },
+ {
+  "value": "o-2-2-3",
+  "en": "— Operating and channel partner identification",
+  "ja": "— 運営・販売パートナーの特定",
+  "group": "Enter and grow in Japan or India"
+ },
+ {
+  "value": "o-2-2-4",
+  "en": "— Local commercial set-up",
+  "ja": "— 現地での商業体制の整備",
+  "group": "Enter and grow in Japan or India"
+ },
+ {
+  "value": "s-2-3",
+  "en": "Grow your market presence",
+  "ja": "市場での存在感を高める",
+  "group": "Enter and grow in Japan or India"
+ },
+ {
+  "value": "o-2-3-1",
+  "en": "— Growth and channel review",
+  "ja": "— 成長とチャネルの見直し",
+  "group": "Enter and grow in Japan or India"
+ },
+ {
+  "value": "o-2-3-2",
+  "en": "— Channel and partner network development",
+  "ja": "— 販売チャネルとパートナー網の開発",
+  "group": "Enter and grow in Japan or India"
+ },
+ {
+  "value": "o-2-3-3",
+  "en": "— Customer access programme",
+  "ja": "— 顧客開拓プログラム",
+  "group": "Enter and grow in Japan or India"
+ },
+ {
+  "value": "o-2-3-4",
+  "en": "— Expansion plan",
+  "ja": "— 拡大計画",
+  "group": "Enter and grow in Japan or India"
+ },
+ {
+  "value": "s-3-1",
+  "en": "Develop workable agreements",
+  "ja": "実行可能な合意を形にする",
+  "group": "Turn interest into commitments"
+ },
+ {
+  "value": "o-3-1-1",
+  "en": "— Collaboration design",
+  "ja": "— 協業の設計",
+  "group": "Turn interest into commitments"
+ },
+ {
+  "value": "o-3-1-2",
+  "en": "— Pilot-to-decision planning",
+  "ja": "— 試行から判断への計画",
+  "group": "Turn interest into commitments"
+ },
+ {
+  "value": "o-3-1-3",
+  "en": "— Negotiation support",
+  "ja": "— 交渉の支援",
+  "group": "Turn interest into commitments"
+ },
+ {
+  "value": "o-3-1-4",
+  "en": "— Agreement preparation",
+  "ja": "— 合意書の準備",
+  "group": "Turn interest into commitments"
+ },
+ {
+  "value": "s-3-2",
+  "en": "Qualify and develop suppliers",
+  "ja": "サプライヤーを認定し、育成する",
+  "group": "Turn interest into commitments"
+ },
+ {
+  "value": "o-3-2-1",
+  "en": "— Supplier requirements brief",
+  "ja": "— サプライヤー要件の整理",
+  "group": "Turn interest into commitments"
+ },
+ {
+  "value": "o-3-2-2",
+  "en": "— Supplier search and readiness assessment",
+  "ja": "— サプライヤーの探索と準備状況の評価",
+  "group": "Turn interest into commitments"
+ },
+ {
+  "value": "o-3-2-3",
+  "en": "— Qualification and trial coordination",
+  "ja": "— 認定と試作の調整",
+  "group": "Turn interest into commitments"
+ },
+ {
+  "value": "o-3-2-4",
+  "en": "— Supplier development plan",
+  "ja": "— サプライヤー育成計画",
+  "group": "Turn interest into commitments"
+ },
+ {
+  "value": "s-3-3",
+  "en": "Prepare opportunities for financing",
+  "ja": "資金調達に向けて機会を整える",
+  "group": "Turn interest into commitments"
+ },
+ {
+  "value": "o-3-3-1",
+  "en": "— Funding needs and staging",
+  "ja": "— 資金需要と段階の整理",
+  "group": "Turn interest into commitments"
+ },
+ {
+  "value": "o-3-3-2",
+  "en": "— Risk-sharing options",
+  "ja": "— リスク分担の選択肢",
+  "group": "Turn interest into commitments"
+ },
+ {
+  "value": "o-3-3-3",
+  "en": "— Investment case preparation",
+  "ja": "— 投資ケースの準備",
+  "group": "Turn interest into commitments"
+ },
+ {
+  "value": "o-3-3-4",
+  "en": "— Financing partner introductions",
+  "ja": "— 資金提供者への紹介",
+  "group": "Turn interest into commitments"
+ },
+ {
+  "value": "s-4-1",
+  "en": "Establish cross-border operations",
+  "ja": "国をまたぐ事業運営を立ち上げる",
+  "group": "Set up and improve operations"
+ },
+ {
+  "value": "o-4-1-1",
+  "en": "— Operating-option comparison",
+  "ja": "— 運営形態の比較",
+  "group": "Set up and improve operations"
+ },
+ {
+  "value": "o-4-1-2",
+  "en": "— Set-up planning and provider selection",
+  "ja": "— 立ち上げ計画とプロバイダーの選定",
+  "group": "Set up and improve operations"
+ },
+ {
+  "value": "o-4-1-3",
+  "en": "— Transition and ramp-up coordination",
+  "ja": "— 移行と立ち上がりの調整",
+  "group": "Set up and improve operations"
+ },
+ {
+  "value": "o-4-1-4",
+  "en": "— Early-operations review",
+  "ja": "— 初期運営の見直し",
+  "group": "Set up and improve operations"
+ },
+ {
+  "value": "s-4-2",
+  "en": "Improve existing collaborations",
+  "ja": "既存の協業を改善する",
+  "group": "Set up and improve operations"
+ },
+ {
+  "value": "o-4-2-1",
+  "en": "— Collaboration performance review",
+  "ja": "— 協業の成果の診断",
+  "group": "Set up and improve operations"
+ },
+ {
+  "value": "o-4-2-2",
+  "en": "— Decision-making and governance redesign",
+  "ja": "— 意思決定とガバナンスの再設計",
+  "group": "Set up and improve operations"
+ },
+ {
+  "value": "o-4-2-3",
+  "en": "— Working-practice improvement",
+  "ja": "— 業務慣行の改善",
+  "group": "Set up and improve operations"
+ },
+ {
+  "value": "o-4-2-4",
+  "en": "— Improvement programme",
+  "ja": "— 改善プログラム",
+  "group": "Set up and improve operations"
+ },
+ {
+  "value": "s-4-3",
+  "en": "Prepare teams to work together",
+  "ja": "チームが協働できるよう準備する",
+  "group": "Set up and improve operations"
+ },
+ {
+  "value": "o-4-3-1",
+  "en": "— Receiving-team readiness",
+  "ja": "— 受け入れ側組織の準備",
+  "group": "Set up and improve operations"
+ },
+ {
+  "value": "o-4-3-2",
+  "en": "— Professional and language preparation",
+  "ja": "— 業務と言語の準備",
+  "group": "Set up and improve operations"
+ },
+ {
+  "value": "o-4-3-3",
+  "en": "— Talent integration and retention review",
+  "ja": "— 人材の統合と定着の見直し",
+  "group": "Set up and improve operations"
+ },
+ {
+  "value": "o-4-3-4",
+  "en": "— Recruitment partner coordination",
+  "ja": "— 採用パートナーの調整",
+  "group": "Set up and improve operations"
+ },
+ {
+  "value": "s-5-1",
+  "en": "Develop new offers together",
+  "ja": "新しい提案をともにつくる",
+  "group": "Create new business and sustain value"
+ },
+ {
+  "value": "o-5-1-1",
+  "en": "— Search for complementary partners",
+  "ja": "— 補完し合うパートナーの探索",
+  "group": "Create new business and sustain value"
+ },
+ {
+  "value": "o-5-1-2",
+  "en": "— Assess a proposed combination",
+  "ja": "— 組み合わせ案の評価",
+  "group": "Create new business and sustain value"
+ },
+ {
+  "value": "o-5-1-3",
+  "en": "— Joint offer design and validation",
+  "ja": "— 共同提案の設計と検証",
+  "group": "Create new business and sustain value"
+ },
+ {
+  "value": "o-5-1-4",
+  "en": "— Joint development arrangements",
+  "ja": "— 共同開発の取り決め",
+  "group": "Create new business and sustain value"
+ },
+ {
+  "value": "s-5-2",
+  "en": "Pursue customers in other markets together",
+  "ja": "他の市場の顧客にともに挑む",
+  "group": "Create new business and sustain value"
+ },
+ {
+  "value": "o-5-2-1",
+  "en": "— Third-market opportunity assessment",
+  "ja": "— 第三国市場の機会の評価",
+  "group": "Create new business and sustain value"
+ },
+ {
+  "value": "o-5-2-2",
+  "en": "— Assemble the partner team",
+  "ja": "— パートナー体制の編成",
+  "group": "Create new business and sustain value"
+ },
+ {
+  "value": "o-5-2-3",
+  "en": "— Combined offer development",
+  "ja": "— 共同提案の作成",
+  "group": "Create new business and sustain value"
+ },
+ {
+  "value": "o-5-2-4",
+  "en": "— Align partner terms",
+  "ja": "— パートナー条件のすり合わせ",
+  "group": "Create new business and sustain value"
+ },
+ {
+  "value": "s-5-3",
+  "en": "Plan for succession and renewal",
+  "ja": "事業承継と刷新を計画する",
+  "group": "Create new business and sustain value"
+ },
+ {
+  "value": "o-5-3-1",
+  "en": "— Continuity options assessment",
+  "ja": "— 事業継続の選択肢の評価",
+  "group": "Create new business and sustain value"
+ },
+ {
+  "value": "o-5-3-2",
+  "en": "— Successor and partner search",
+  "ja": "— 後継者・パートナーの探索",
+  "group": "Create new business and sustain value"
+ },
+ {
+  "value": "o-5-3-3",
+  "en": "— Transition planning",
+  "ja": "— 移行の計画",
+  "group": "Create new business and sustain value"
+ },
+ {
+  "value": "o-5-3-4",
+  "en": "— Post-transition integration support",
+  "ja": "— 移行後の統合支援",
+  "group": "Create new business and sustain value"
+ },
+ {
+  "value": "s-6-1",
+  "en": "Bring organizations together to deliver",
+  "ja": "複数の組織をまとめて実行する",
+  "group": "Coordinate complex initiatives"
+ },
+ {
+  "value": "o-6-1-1",
+  "en": "— Integration planning",
+  "ja": "— 統合計画",
+  "group": "Coordinate complex initiatives"
+ },
+ {
+  "value": "o-6-1-2",
+  "en": "— Participant alignment and governance",
+  "ja": "— 参加者の合意形成とガバナンス",
+  "group": "Coordinate complex initiatives"
+ },
+ {
+  "value": "o-6-1-3",
+  "en": "— Execution coordination",
+  "ja": "— 実行の調整",
+  "group": "Coordinate complex initiatives"
+ },
+ {
+  "value": "o-6-1-4",
+  "en": "— Outcome tracking",
+  "ja": "— 成果の追跡",
+  "group": "Coordinate complex initiatives"
+ },
+ {
+  "value": "f-gcc",
+  "en": "Our focus: global capability centres",
+  "ja": "注力分野:グローバル・ケイパビリティ・センター",
+  "group": "Our focus"
+ },
+ {
+  "value": "f-water",
+  "en": "Our focus: water solutions",
+  "ja": "注力分野:水ソリューション",
+  "group": "Our focus"
+ },
+ {
+  "value": "f-recycle",
+  "en": "Our focus: recycling and waste management",
+  "ja": "注力分野:リサイクルと廃棄物管理",
+  "group": "Our focus"
+ },
+ {
+  "value": "f-other",
+  "en": "Our focus: another opportunity area",
+  "ja": "注力分野:そのほかの機会",
+  "group": "Our focus"
+ },
+ {
+  "value": "e-e01",
+  "en": "Opening markets for industrial manufacturers",
+  "ja": "産業機器メーカーの市場をひらく",
+  "group": "Our experience"
+ },
+ {
+  "value": "e-e02",
+  "en": "Helping Indian manufacturers reach US customers",
+  "ja": "インドのメーカーが米国の顧客に届くよう支援する",
+  "group": "Our experience"
+ },
+ {
+  "value": "e-e03",
+  "en": "Creating a new business possibility from existing assets",
+  "ja": "既存の資産から新しい事業の可能性をつくる",
+  "group": "Our experience"
+ },
+ {
+  "value": "e-e04",
+  "en": "Bringing a fragmented global operation together",
+  "ja": "分断された世界規模の事業運営をひとつにまとめる",
+  "group": "Our experience"
+ },
+ {
+  "value": "e-e05",
+  "en": "Improving the customer journey in international payments",
+  "ja": "国際送金における顧客体験を改善する",
+  "group": "Our experience"
+ },
+ {
+  "value": "e-e06",
+  "en": "Connecting customer strategy with implementation",
+  "ja": "顧客戦略を実行につなぐ",
+  "group": "Our experience"
+ },
+ {
+  "value": "e-e07",
+  "en": "Helping an investment business launch products faster",
+  "ja": "投資事業の新商品投入を早める",
+  "group": "Our experience"
+ },
+ {
+  "value": "e-e08",
+  "en": "Coordinating a consistent customer experience after a merger",
+  "ja": "合併後に一貫した顧客体験をまとめる",
+  "group": "Our experience"
+ },
+ {
+  "value": "e-e09",
+  "en": "Supporting a Japanese institution’s global trading transformation",
+  "ja": "日本の金融機関の世界規模のトレーディング変革を支える",
+  "group": "Our experience"
+ },
+ {
+  "value": "e-e10",
+  "en": "Transforming sales and service at scale",
+  "ja": "販売とサービスを大規模に変革する",
+  "group": "Our experience"
+ },
+ {
+  "value": "e-e11",
+  "en": "Changing pricing practices across a global business",
+  "ja": "世界規模の事業で価格設定の慣行を変える",
+  "group": "Our experience"
+ },
+ {
+  "value": "e-e12",
+  "en": "Improving how a technology organization delivers",
+  "ja": "テクノロジー組織の実行の仕方を改善する",
+  "group": "Our experience"
+ },
+ {
+  "value": "e-e13",
+  "en": "Assessing connected financial risks",
+  "ja": "つながり合う金融リスクを評価する",
+  "group": "Our experience"
+ },
+ {
+  "value": "e-e14",
+  "en": "Concluding international licensing and manufacturing agreements",
+  "ja": "国際的なライセンス契約と製造契約をまとめる",
+  "group": "Our experience"
+ },
+ {
+  "value": "e-e15",
+  "en": "Developing a US market for products made in India",
+  "ja": "インドで製造される製品の米国市場を開拓する",
+  "group": "Our experience"
+ },
+ {
+  "value": "e-e16",
+  "en": "Checking quality before delivery in bespoke tailoring",
+  "ja": "オーダースーツの納品前に品質を確かめる",
+  "group": "Our experience"
+ },
+ {
+  "value": "e-e17",
+  "en": "Recruiting adult students in Japan and training colleagues",
+  "ja": "日本で社会人の受講者を集め、同僚を育てる",
+  "group": "Our experience"
+ },
+ {
+  "value": "e-e18",
+  "en": "Developing a platform evolution roadmap",
+  "ja": "プラットフォームの進化のロードマップをつくる",
+  "group": "Our experience"
+ },
+ {
+  "value": "e-e19",
+  "en": "Developing two routes into Turkey",
+  "ja": "トルコへの二つの参入経路を育てる",
+  "group": "Our experience"
+ },
+ {
+  "value": "e-e20",
+  "en": "Shaping a ten-market growth strategy",
+  "ja": "10市場にわたる成長戦略を形にする",
+  "group": "Our experience"
+ },
+ {
+  "value": "e-e21",
+  "en": "Positioning a region for technology investment",
+  "ja": "地域をテクノロジー投資の立地先として位置づける",
+  "group": "Our experience"
+ },
+ {
+  "value": "e-e22",
+  "en": "Building an Indian manufacturer’s international reputation",
+  "ja": "インドの製造企業の国際的な評価を築く",
+  "group": "Our experience"
+ },
+ {
+  "value": "e-e23",
+  "en": "Building a Japanese clientele in US menswear retail",
+  "ja": "米国の紳士服販売で日本人のお客様を築く",
+  "group": "Our experience"
+ },
+ {
+  "value": "e-e24",
+  "en": "Automating guest follow-up and arrival instructions",
+  "ja": "ゲストへのフォローアップと到着案内を自動化する",
+  "group": "Our experience"
+ },
+ {
+  "value": "e-e25",
+  "en": "Turning a guest request into a recurring group arrangement",
+  "ja": "ゲストの依頼を、継続するグループ利用につなげる",
+  "group": "Our experience"
+ },
+ {
+  "value": "e-e26",
+  "en": "Helping overseas-backed technology start-ups build teams in India",
+  "ja": "海外から支援を受けたテクノロジーのスタートアップが、インドでチームを築くのを支える",
+  "group": "Our experience"
+ },
+ {
+  "value": "e-e27",
+  "en": "Convening governments and corporate location decision-makers",
+  "ja": "行政と、企業の立地を決める人々をつなぐ",
+  "group": "Our experience"
+ },
+ {
+  "value": "e-e28",
+  "en": "Concluding technology partnerships with Israeli and Korean companies",
+  "ja": "イスラエルと韓国の企業との技術提携をまとめる",
+  "group": "Our experience"
+ },
+ {
+  "value": "e-e29",
+  "en": "Negotiating an ownership transition for a software business",
+  "ja": "ソフトウェア企業の所有の移行を交渉する",
+  "group": "Our experience"
+ },
+ {
+  "value": "h-h01",
+  "en": "A Japanese manufacturer exploring India",
+  "ja": "インドを検討する日本のメーカー",
+  "group": "Our experience"
+ },
+ {
+  "value": "h-h02",
+  "en": "An Indian software business seeking Japanese customers",
+  "ja": "日本の顧客を求めるインドのソフトウェア企業",
+  "group": "Our experience"
+ },
+ {
+  "value": "h-h03",
+  "en": "A Japanese business seeking engineering capability in India",
+  "ja": "インドでエンジニアリング能力を求める日本企業",
+  "group": "Our experience"
+ },
+ {
+  "value": "h-h04",
+  "en": "An existing collaboration delivering less than expected",
+  "ja": "期待ほどの成果が出ていない既存の協業",
+  "group": "Our experience"
+ },
+ {
+  "value": "h-h05",
+  "en": "Japanese and Indian firms pursuing a third-market project",
+  "ja": "第三国市場の案件に挑む日本とインドの企業",
+  "group": "Our experience"
+ },
+ {
+  "value": "h-h06",
+  "en": "A specialist business considering succession",
+  "ja": "事業承継を考える専門メーカー",
+  "group": "Our experience"
+ },
+ {
+  "value": "h-h07",
+  "en": "An Indian manufacturer looking for a Japanese technology partner",
+  "ja": "日本の技術パートナーを探すインドのメーカー",
+  "group": "Our experience"
+ },
+ {
+  "value": "h-h08",
+  "en": "A Japan–India venture preparing to approach financiers",
+  "ja": "資金提供者への働きかけを準備する日印の事業",
+  "group": "Our experience"
+ },
+ {
+  "value": "h-h09",
+  "en": "Preparing Japanese and Indian teams to work together",
+  "ja": "日本とインドのチームがともに働く準備をする",
+  "group": "Our experience"
+ },
+ {
+  "value": "h-h10",
+  "en": "Japanese and Indian firms designing a new offer together",
+  "ja": "新しい提案をともに設計する日本とインドの企業",
+  "group": "Our experience"
+ }
+]

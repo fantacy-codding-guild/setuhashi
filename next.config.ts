@@ -1,18 +1,13 @@
-import type { NextConfig } from 'next'
+import type { NextConfig } from "next";
+import createNextIntlPlugin from "next-intl/plugin";
 
-/**
- * Static export: the original site is plain static HTML for Hostinger web hosting, so the
- * Next.js build produces the same kind of artefact (`out/`) — no Node runtime required.
- * trailingSlash gives /en/who-we-are/index.html, which any static host serves without rewrites.
- * Legacy *.html addresses are redirected by public/.htaccess.
- */
+const withNextIntl = createNextIntlPlugin("./i18n/request.ts");
+
 const nextConfig: NextConfig = {
-  output: 'export',
+  // Pages are addressed /en/<page>/ and /ja/<page>/, matching the live site.
   trailingSlash: true,
-  images: { unoptimized: true },
-  reactStrictMode: true,
+  poweredByHeader: false,
   experimental: { globalNotFound: true },
-  allowedDevOrigins: ['127.0.0.1'],
-}
+};
 
-export default nextConfig
+export default withNextIntl(nextConfig);

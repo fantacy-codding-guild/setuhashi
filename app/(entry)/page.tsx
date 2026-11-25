@@ -1,36 +1,70 @@
-import Link from 'next/link'
-import { REVIEW_BUILD, T } from '@/lib/site'
+import { getTranslations } from "next-intl/server";
 
-/** Bilingual language-selection opening (root index.html in the original). */
-export default function Entry() {
+export default async function EntryPage() {
+  const en = await getTranslations({ locale: "en", namespace: "entry" });
+  const ja = await getTranslations({ locale: "ja", namespace: "entry" });
   return (
     <>
-      {REVIEW_BUILD && (
-        <aside className="proto-bar" aria-label={T.en.protoLabel}>
-          <div className="wrap">{T.en.proto}</div>
-        </aside>
-      )}
+      {"\n"}
+      {"\n"}
       <main id="main" className="entry-main">
+        {"\n"}
         <div className="wrap e-grid">
+          {"\n"}
           <h1 className="e-statements">
-            <span className="e-pair"><span className="e-s e-s1">Building Bridges</span><span className="e-s-ja" lang="ja">架け橋を築く</span></span>
-            <span className="e-pair"><span className="e-s e-s2">Connecting Opportunities</span><span className="e-s-ja" lang="ja">機会をつなぐ</span></span>
-            <span className="e-pair"><span className="e-s e-s3">Creating Value</span><span className="e-s-ja" lang="ja">価値を創る</span></span>
+            <span className="e-pair">
+              <span className="e-s e-s1">{en("span_1")}</span>
+              <span className="e-s-ja" lang="ja">
+                {ja("span_2")}
+              </span>
+            </span>
+            <span className="e-pair">
+              <span className="e-s e-s2">{en("span_3")}</span>
+              <span className="e-s-ja" lang="ja">
+                {ja("span_4")}
+              </span>
+            </span>
+            <span className="e-pair">
+              <span className="e-s e-s3">{en("span_5")}</span>
+              <span className="e-s-ja" lang="ja">
+                {ja("span_6")}
+              </span>
+            </span>
           </h1>
+          {"\n"}
           <div className="w-mark w-mark-en">
-            <img src="/assets/logo/SetuHashi_Logo_English_Stacked_White.svg" alt="SetuHashi" width={260} height={186} />
+            <img
+              src="/assets/logo/SetuHashi_Logo_English_Stacked_White.svg"
+              alt={en("alt_1")}
+              width="260"
+              height="186"
+            />
             <p className="w-def">
-              <span className="w-d"><span>Setu</span> — bridge in Sanskrit.</span>{' '}
-              <span className="w-d"><span>Hashi</span> — bridge in Japanese.</span>
+              <span className="w-d">
+                <span>{en("span_7")}</span>
+                {en("span_8")}
+              </span>{" "}
+              <span className="w-d">
+                <span>{en("span_9")}</span>
+                {en("span_10")}
+              </span>
             </p>
-            <p className="w-shared">One Shared Connection</p>
+            <p className="w-shared">{en("p_1")}</p>
           </div>
-          <nav className="e-langs" aria-label="Choose a language / 言語を選択">
-            <Link className="e-lang" href="/en/" hrefLang="en">English</Link>
-            <Link className="e-lang" href="/ja/" lang="ja" hrefLang="ja">日本語</Link>
+          {"\n"}
+          <nav className="e-langs" aria-label={en("label_1")}>
+            <a className="e-lang" href="/en/" hrefLang="en">
+              {en("a_1")}
+            </a>
+            <a className="e-lang" href="/ja/" lang="ja" hrefLang="ja">
+              {ja("a_2")}
+            </a>
           </nav>
+          {"\n"}
         </div>
+        {"\n"}
       </main>
+      {"\n"}
     </>
-  )
+  );
 }

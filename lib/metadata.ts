@@ -1,20 +1,26 @@
-import type { Metadata } from 'next'
-import { ALLOW_INDEXING, SITE_URL, otherLang, routeFor, type Lang } from './site'
-import type { PageData } from './content'
+import type { Metadata } from "next";
+import { getTranslations } from "next-intl/server";
+import { routing } from "@/i18n/routing";
+import { pageHref } from "./nav";
+import { REVIEW, SITE_URL } from "./site";
 
-export function pageMetadata(lang: Lang, page: PageData): Metadata {
-  const m: Metadata = {
-    title: { absolute: page.title },
-    description: page.description,
-    robots: ALLOW_INDEXING ? undefined : { index: false, follow: false },
-    icons: { icon: '/assets/icons/favicon.ico' },
-  }
-  if (SITE_URL) {
-    // production: canonical URL + bilingual alternates (resolved against metadataBase set in the layout)
-    m.alternates = {
-      canonical: routeFor(lang, page.slug),
-      languages: { [lang]: routeFor(lang, page.slug), [otherLang(lang)]: routeFor(otherLang(lang), page.slug) },
-    }
-  }
-  return m
+export type PageProps = { params: Promise<{ locale: string }> };
+
+/** Title, description, language alternates and robots for a page; text comes from messages → pages.<page>. */
+export function pageMetadata(page: string) {
+  return async function generateMetadata({ params }: PageProps): Promise<Metadata> {
+    const { locale } = await params;
+    const t = await getTranslations({ locale, namespace: `pages.${page || "home"}` });
+    return {
+      metadataBase: new URL(SITE_URL),
+      title: t("metaTitle"),
+      description: t("metaDescription"),
+      robots: REVIEW ? { index: false, follow: false } : undefined,
+      alternates: {
+        canonical: pageHref(locale, page),
+        languages: Object.fromEntries(routing.locales.map((l) => [l, pageHref(l, page)])),
+      },
+      icons: { icon: "/assets/icons/favicon.ico" },
+    };
+  };
 }

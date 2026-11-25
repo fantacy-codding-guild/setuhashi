@@ -5,12 +5,8 @@ export default async function EntryPage() {
   const ja = await getTranslations({ locale: "ja", namespace: "entry" });
   return (
     <>
-      {"\n"}
-      {"\n"}
       <main id="main" className="entry-main">
-        {"\n"}
         <div className="wrap e-grid">
-          {"\n"}
           <h1 className="e-statements">
             <span className="e-pair">
               <span className="e-s e-s1">{en("span_1")}</span>
@@ -31,7 +27,7 @@ export default async function EntryPage() {
               </span>
             </span>
           </h1>
-          {"\n"}
+
           <div className="w-mark w-mark-en">
             <img
               src="/assets/logo/SetuHashi_Logo_English_Stacked_White.svg"
@@ -51,7 +47,7 @@ export default async function EntryPage() {
             </p>
             <p className="w-shared">{en("p_1")}</p>
           </div>
-          {"\n"}
+
           <nav className="e-langs" aria-label={en("label_1")}>
             <a className="e-lang" href="/en/" hrefLang="en">
               {en("a_1")}
@@ -60,11 +56,8 @@ export default async function EntryPage() {
               {ja("a_2")}
             </a>
           </nav>
-          {"\n"}
         </div>
-        {"\n"}
       </main>
-      {"\n"}
     </>
   );
 }

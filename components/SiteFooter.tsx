@@ -12,9 +12,7 @@ export default async function SiteFooter({
   const t = await getTranslations({ locale, namespace: "common" });
   return (
     <footer className={`ftr ftr-${locale}`}>
-      {"\n"}
       <div className="wrap ftr-grid">
-        {"\n"}
         <div className="ftr-id">
           <a href={pageHref(locale, "")} className="ftr-home">
             <img
@@ -30,7 +28,7 @@ export default async function SiteFooter({
             })}
           </p>
         </div>
-        {"\n"}
+
         <nav aria-label={t("footerLabel")}>
           <ul className="ftr-nav">
             {FOOTER_LINKS.map((s) => (
@@ -51,7 +49,6 @@ export default async function SiteFooter({
           </ul>
         </nav>
       </div>
-      {"\n"}
     </footer>
   );
 }
